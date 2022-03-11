@@ -1,5 +1,5 @@
 ---
-title: "[Error] Linux 가상 머신 재설치 오류"
+title: "[Linux] Linux 가상 머신 재설치 오류"
 categories:
  - Linux
 tags:
