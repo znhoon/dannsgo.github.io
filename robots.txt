@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /Retrospective/
+Disallow: /retrospective/
 
 Sitemap: https://dannsgo.com/sitemap.xml
