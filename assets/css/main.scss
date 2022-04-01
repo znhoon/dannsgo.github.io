@@ -8,13 +8,6 @@
 @import "minimal-mistakes"; // main partials
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean");
 @font-face {
-  font-family: "TmoneyRoundWindRegular";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindRegular.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "RIDIBatang";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff")
     format("woff");
@@ -23,13 +16,13 @@
 }
 @font-face {
     font-weight: normal;
-    font-family: 'SpoqaHanSansNeo-Regular';
+    font-family: "SpoqaHanSansNeo-Regular";
     font-style: normal;
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
 }
 @font-face {
-     font-family: 'S-CoreDream-5Medium';
-     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
-     font-weight: normal;
-     font-style: normal;
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
