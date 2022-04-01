@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /retrospective/
 Disallow: /Retrospective/
 
-Sitemap: https://dannsgo.com/sitemap.xml
+Sitemap: https://dannsgo.github.io/sitemap.xml
