@@ -268,3 +268,23 @@ defaults:
       related: true
       mathjax: true
       sidebar_main: true
+      
+  # _pages
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
+      mathjax: true
+      sidebar_main: true
+
+  # 코드블럭
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
