@@ -1,7 +1,21 @@
-.mh_toogle {
+.tgl {
     display: none;
-    + .mh_toggle_btn {
+
+    // add default box-sizing for this scope
+    &,
+    &:after,
+    &:before,
+    & *,
+    & *:after,
+    & *:before,
+    & + .tgl-btn {
         box-sizing: border-box;
+        &::selection {
+            background: none;
+        }
+    }
+
+    + .tgl-btn {
         outline: 0;
         display: block;
         width: 3em;
@@ -9,36 +23,43 @@
         position: relative;
         cursor: pointer;
         user-select: none;
-        border-radius: 1.5em;
-        padding: 2px;
-        transition: all 0.4s ease;
-        font-size: 1em;
-
-        &:after {
+        &:after,
+        &:before {
             position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            display: block;
+            content: "";
             width: 50%;
             height: 100%;
-            border-radius: 50%;
-            transition: all 0.4s ease;
-            color: gray;
-            background: white;
         }
 
-        background: lightgray;
         &:after {
             left: 0;
-            content: "brightness_7";
+        }
+
+        &:before {
+            display: none;
         }
     }
 
-    &:checked + .mh_toggle_btn {
-        background: gray;
+    &:checked + .tgl-btn:after {
+        left: 50%;
+    }
+}
+
+.tgl-light {
+    + .tgl-btn {
+        background: lightgray;
+        border-radius: 1.5em;
+        padding: 2px;
+        transition: all 0.4s ease;
         &:after {
-            left: 50%;
-            content: "brightness_4";
+            border-radius: 50%;
+            background: white;
+            transition: all 0.2s ease;
         }
+    }
+
+    &:checked + .tgl-btn {
+        background: #2b78a2
     }
 }
