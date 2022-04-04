@@ -4,9 +4,9 @@ main:
   #url: /index.html
   #- title: "About"
   #url: /about/
-  - title: "Category"
+  - title: "📁"
     url: /categories/
   #- title: "Tag"
   #url: /tags/
-  - title: "Search"
+  - title: "🔍"
     url: /search/
